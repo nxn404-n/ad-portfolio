@@ -8,18 +8,18 @@ function Homepage() {
       <h2>Nafeur Rahman Adil</h2>
 
       <div className='flex gap-4 text-5xl'>
-        <div className="contact-btn">
+        <a className="contact-btn" href="https://github.com/nxn404-n" target="_blank">
           <FaGithub />
           <p className="text-sm">Github</p>
-        </div>
-        <div className="contact-btn">
+        </a>
+        <a className="contact-btn" href="https://www.linkedin.com/in/nafeurrahmanadil/" target="_blank">
           <FaLinkedin />
           <p className="text-sm">Linkedin</p>
-        </div>
-        <div className="contact-btn">
+        </a>
+        <a className="contact-btn" href="https://x.com/nxn_404" target="_blank">
           <RiTwitterXFill />
           <p className="text-sm">X</p>
-        </div>
+        </a>
       </div>
 
       <div>Get my résumé</div>
