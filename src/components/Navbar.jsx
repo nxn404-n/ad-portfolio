@@ -1,4 +1,4 @@
-function Navbar() {
+const Navbar = () => {
   return (
     <div className="flex justify-between">
       <h1>adil</h1>

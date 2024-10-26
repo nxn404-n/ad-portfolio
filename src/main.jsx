@@ -5,7 +5,7 @@ import App from "./App.jsx";
 
 createRoot(document.getElementById("root")).render(
   <StrictMode>
-    <div className=' bg-[#103D42] h-screen text-[#FFEDD5]'>
+    <div className=' bg-[#103D42] h-full text-[#FFEDD5]'>
       <App />
     </div>
   </StrictMode>

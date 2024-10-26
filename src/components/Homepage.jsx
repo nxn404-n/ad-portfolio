@@ -2,7 +2,7 @@ import { FaGithub } from "react-icons/fa";
 import { FaLinkedin } from "react-icons/fa6";
 import { RiTwitterXFill } from "react-icons/ri";
 
-function Homepage() {
+const Homepage = () => {
   return (
     <div className=' flex flex-col justify-center items-center mt-10 gap-7'>
       <h2>Nafeur Rahman Adil</h2>
