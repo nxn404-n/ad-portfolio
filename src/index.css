@@ -2,6 +2,14 @@
 @tailwind components;
 @tailwind utilities;
 
+body {
+  background-color: #1E2D41;
+  color: #FFEDD5
+}
 .contact-btn {
   @apply flex flex-col items-center
+}
+
+.contact-contactPage {
+  @apply flex justify-center items-center gap-2
 }

@@ -1,6 +1,8 @@
 import { FaGithub } from "react-icons/fa";
 import { FaLinkedin } from "react-icons/fa6";
 import { RiTwitterXFill } from "react-icons/ri";
+import { SiGmail } from "react-icons/si";
+import AllProjects from "./AllProjects";
 
 const Homepage = () => {
   return (
@@ -20,9 +22,15 @@ const Homepage = () => {
           <RiTwitterXFill />
           <p className="text-sm">X</p>
         </a>
+        <a className="contact-btn" href="mailto:nafeurrahmanadil@gmail.com">
+          <SiGmail />
+          <p className="text-sm">Email</p>
+        </a>
       </div>
 
       <div>Get my résumé</div>
+
+      <AllProjects />
     </div>
   );
 }
