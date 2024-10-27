@@ -3,17 +3,21 @@
 @tailwind utilities;
 
 body {
-  background-color: #1E2D41;
-  color: #FFEDD5
+  background-color: #1e2d41;
+  color: #ffedd5;
 }
 .contact-btn {
-  @apply flex flex-col items-center
+  @apply flex flex-col items-center gap-1;
+}
+
+.contact-btn:hover {
+  @apply cursor-pointer text-[#E4AF26];
 }
 
 .contact-contactPage {
-  @apply flex justify-center items-center gap-2
+  @apply flex items-center justify-center gap-2;
 }
 
 .nav-btn:hover {
-  @apply text-[#E4AF26] cursor-pointer
+  @apply cursor-pointer text-[#E4AF26];
 }

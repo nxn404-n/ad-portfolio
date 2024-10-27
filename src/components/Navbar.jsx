@@ -1,5 +1,5 @@
-import PropTypes from 'prop-types';
-import { useState } from 'react';
+import PropTypes from "prop-types";
+import { useState } from "react";
 
 const Navbar = ({ setShowHomepage, setShowProjects, setShowContacts }) => {
   const [activePage, setActivePage] = useState("home");
@@ -24,14 +24,29 @@ const Navbar = ({ setShowHomepage, setShowProjects, setShowContacts }) => {
   }
   return (
     <div className="flex justify-between">
-      <h1 className="text-4xl font-bold font-dm-serif nav-btn">adil</h1>
+      <h1 className="nav-btn font-dm-serif text-4xl font-bold">adil</h1>
       <div className="flex gap-9 font-montserrat text-lg">
-        <p onClick={handleHomepage} className={`nav-btn ${activePage === 'home' ? 'text-[#E4AF26]' : ''}`}>home</p>
-        <p onClick={handleProjects} className={`nav-btn ${activePage === 'projects' ? 'text-[#E4AF26]' : ''}`}>projects</p>
-        <p onClick={handleContact} className={`nav-btn ${activePage === 'contact' ? 'text-[#E4AF26]' : ''}`}>contact</p>
+        <p
+          onClick={handleHomepage}
+          className={`nav-btn ${activePage === "home" ? "text-[#E4AF26]" : ""}`}
+        >
+          home
+        </p>
+        <p
+          onClick={handleProjects}
+          className={`nav-btn ${activePage === "projects" ? "text-[#E4AF26]" : ""}`}
+        >
+          projects
+        </p>
+        <p
+          onClick={handleContact}
+          className={`nav-btn ${activePage === "contact" ? "text-[#E4AF26]" : ""}`}
+        >
+          contact
+        </p>
       </div>
     </div>
-  )
+  );
 };
 Navbar.propTypes = {
   setShowHomepage: PropTypes.func.isRequired,

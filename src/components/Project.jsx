@@ -11,7 +11,7 @@ const Project = ({
   descMain3,
   builtWith,
   sourceCode,
-  liveLink
+  liveLink,
 }) => {
   return (
     <div>
@@ -20,7 +20,7 @@ const Project = ({
         <img
           src={img}
           alt={`${name} project image`}
-          className='max-h-96 max-w-96'
+          className="max-h-96 max-w-96"
         />
         <p>{descHeading}</p>
         <p>{descMain1}</p>
@@ -31,9 +31,7 @@ const Project = ({
           <p>Built With:</p>
           <hr />
           {builtWith.map((language, index) => (
-            <div key={index}>
-              {language}
-            </div>
+            <div key={index}>{language}</div>
           ))}
         </div>
 

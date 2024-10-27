@@ -6,15 +6,26 @@ import AllProjects from "./AllProjects";
 
 const Homepage = () => {
   return (
-    <div className=' flex flex-col justify-center items-center mt-10 gap-7'>
-      <h2>Nafeur Rahman Adil</h2>
+    <div className="mt-10 flex flex-col items-center justify-center gap-7 pt-24">
+      <h2 className="font-dm-serif text-6xl font-bold tracking-wide">
+        Nafeur Rahman Adil
+      </h2>
+      <p className="font-dm-serif text-4xl">Web Developer</p>
 
-      <div className='flex gap-4 text-5xl'>
-        <a className="contact-btn" href="https://github.com/nxn404-n" target="_blank">
+      <div className="mt-8 flex gap-4 rounded-2xl bg-[#1B2430] p-5 text-6xl">
+        <a
+          className="contact-btn"
+          href="https://github.com/nxn404-n"
+          target="_blank"
+        >
           <FaGithub />
           <p className="text-sm">Github</p>
         </a>
-        <a className="contact-btn" href="https://www.linkedin.com/in/nafeurrahmanadil/" target="_blank">
+        <a
+          className="contact-btn"
+          href="https://www.linkedin.com/in/nafeurrahmanadil/"
+          target="_blank"
+        >
           <FaLinkedin />
           <p className="text-sm">Linkedin</p>
         </a>
@@ -28,11 +39,13 @@ const Homepage = () => {
         </a>
       </div>
 
-      <div>Get my résumé</div>
+      <p className="cursor-pointer rounded-lg bg-[#1B2430] px-5 py-2 text-lg hover:text-[#E4AF26]">
+        Get my résumé
+      </p>
 
       <AllProjects />
     </div>
   );
-}
+};
 
 export default Homepage;
