@@ -9,7 +9,7 @@ function App() {
   const [showProjects, setShowProjects] = useState(false);
   const [showContacts, setShowContacts] = useState(false);
   return (
-    <div className='p-3 flex flex-col '>
+    <div className='px-20 py-6 flex flex-col'>
       <Navbar
         setShowHomepage={setShowHomepage}
         setShowProjects={setShowProjects}

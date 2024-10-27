@@ -13,3 +13,7 @@ body {
 .contact-contactPage {
   @apply flex justify-center items-center gap-2
 }
+
+.nav-btn:hover {
+  @apply text-[#E4AF26] cursor-pointer
+}
