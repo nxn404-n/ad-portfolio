@@ -5,7 +5,8 @@ import { SiGmail } from "react-icons/si";
 
 const Contacts = () => {
   return (
-    <div className="flex flex-col items-start gap-4 text-3xl">
+    <div className="flex flex-col items-start gap-9 text-3xl pt-16">
+      <h1 className="font-dm-serif tracking-wider">Contact Me</h1>
       <a
         className="contact-contactPage"
         href="https://github.com/nxn404-n"

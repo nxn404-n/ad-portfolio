@@ -39,7 +39,7 @@ const Homepage = () => {
         </a>
       </div>
 
-      <p className="cursor-pointer rounded-lg bg-[#1B2430] px-5 py-2 text-lg hover:text-[#E4AF26]">
+      <p className="cursor-pointer rounded-lg bg-[#1B2430] px-5 py-2 text-lg hover:bg-[#090D13] hover:text-[#E4AF26]">
         Get my résumé
       </p>
 

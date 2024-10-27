@@ -15,7 +15,7 @@ body {
 }
 
 .contact-contactPage {
-  @apply flex items-center justify-center gap-2;
+  @apply flex w-48 items-center justify-start gap-4 rounded-xl bg-[#1B2430] py-3 pl-2 hover:text-[#E4AF26] hover:bg-[#090D13];
 }
 
 .nav-btn:hover {
