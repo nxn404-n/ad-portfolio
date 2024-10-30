@@ -21,3 +21,11 @@ body {
 .nav-btn:hover {
   @apply cursor-pointer text-[#E4AF26];
 }
+
+.card-view{
+  @apply flex flex-col items-center text-4xl hover:text-[#E4AF26];
+}
+
+.card-view-txt {
+  @apply text-sm;
+}

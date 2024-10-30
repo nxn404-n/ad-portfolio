@@ -3,9 +3,9 @@ import Project from "./Project";
 
 const AllProjects = () => {
   return (
-    <div>
-      <h3>Projects</h3>
-      <div>
+    <div className="pt-9 w-full">
+      <h3 className="font-dm-serif text-3xl tracking-wider pb-6">Projects</h3>
+      <div className="grid gap-9 sm:grid-cols-2">
         {projects.map((project, index) => (
           <div key={index}>
             <Project

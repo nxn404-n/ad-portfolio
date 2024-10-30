@@ -9,9 +9,9 @@ export const projects = [
     img: doitrn,
     name: 'Doit-rn',
     descHeading: 'A productivity web app with user authentication and task management',
-    descMain1: 'doit-rn is a task management and productivity web app.',
+    descMain1: 'Doit-rn is a task management and productivity web app.',
     descMain2: 'I developed this custom todo app with a simple and intuitive interface designed to enhance productivity.',
-    descMain3: 'It features user login and signup with data persistence through localStorage, a responsive and accessible UI built with React and styled using Tailwind CSS, allowing users to securely store, update, and track their tasks and it has more than 90% component test coverage',
+    descMain3: 'It features user login and signup with data persistence through localStorage, a responsive and accessible UI built with React and styled using Tailwind CSS, allowing users to securely store, update, and track their tasks and it has more than 90% component test coverage.',
     builtWith: [
       "React",
       "Tailwind CSS",
@@ -26,7 +26,7 @@ export const projects = [
     descHeading: 'An anime discovery platform with search and detailed view capabilities',
     descMain1: 'Ani106 is an interactive anime discovery website.',
     descMain2: 'I built this custom website to provide anime enthusiasts with a smooth browsing experience, featuring curated sections for top, upcoming, and seasonal anime.',
-    descMain3: 'It includes a search feature powered by Redux for managing search state, responsive UI animations using Tailwind CSS, and dynamic routing to detailed anime information pages. Ani106 combines speed and accessibility to deliver an enjoyable, user-friendly experience for exploring anime content and it has more than 90% component test coverage',
+    descMain3: 'It includes a search feature powered by Redux for managing search state, responsive UI animations using Tailwind CSS, and dynamic routing to detailed anime information pages. Ani106 combines speed and accessibility to deliver an enjoyable, user-friendly experience for exploring anime content and it has more than 90% component test coverage.',
     builtWith: [
       "React",
       "Redux",

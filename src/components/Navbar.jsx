@@ -24,8 +24,8 @@ const Navbar = ({ setShowHomepage, setShowProjects, setShowContacts }) => {
   }
   return (
     <div className="flex justify-between">
-      <h1 className="nav-btn font-dm-serif text-4xl font-bold">adil</h1>
-      <div className="flex gap-9 font-montserrat text-lg">
+      <h1 className="nav-btn font-dm-serif sm:text-4xl text-2xl font-bold">adil</h1>
+      <div className="flex sm:gap-9 gap-3 font-montserrat text-lg">
         <p
           onClick={handleHomepage}
           className={`nav-btn ${activePage === "home" ? "text-[#E4AF26]" : ""}`}

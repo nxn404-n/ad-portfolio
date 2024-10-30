@@ -9,7 +9,7 @@ function App() {
   const [showProjects, setShowProjects] = useState(false);
   const [showContacts, setShowContacts] = useState(false);
   return (
-    <div className='px-20 py-6 flex flex-col font-montserrat'>
+    <div className='sm:px-20 px-3 py-6 flex flex-col font-montserrat'>
       <Navbar
         setShowHomepage={setShowHomepage}
         setShowProjects={setShowProjects}
